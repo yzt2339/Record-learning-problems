@@ -1,0 +1,8 @@
+#Operating system: ubuntu 16.04 LTS
+#Stlink tools version:  773d05a  on Jul 1, 2017 ,  https://github.com/texane/stlink.git
+I build st-link programs from source. Everythink is OK. After installing "sudo make install", I ran the program "st-info" (or other st-xxxx program) and this is output:
+
+solution：cd /stlink/build/Release && export LD_LIBRARY_PATH=$PWD/_install/usr/local/lib
+
+
+Detalied description：https://github.com/texane/stlink/issues/478
